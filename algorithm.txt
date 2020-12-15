@@ -1,0 +1,274 @@
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '5177.400000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000001' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000001' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '6029.410000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000004' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000004' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '6357.090000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000012' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000012' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '5701.730000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000015' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000015' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '6488.150000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000018' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000018' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '4784.220000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000028' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000028' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '4784.220000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000029' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000029' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '6226.000000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000026' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000026' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '5767.240000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000034' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000034' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '4259.930000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000040' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000040' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '4653.100000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000042' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000042' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '2228.280000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000045' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000045' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '5570.620000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000055' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000055' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '5701.730000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000057' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000057' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '2490.430000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000065' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000065' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '5963.850000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000066' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000066' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '5963.850000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000067' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000067' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '6422.610000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000079' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000079' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '4653.100000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000082' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000082' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '6291.560000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000085' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000085' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAvg (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:49.200', ROUND(2.918060,3), ROUND(872.500000,3) from MstDevice  where mac = '210000000096' and DefTable = 'HisItemVoltT'; 
+Insert ignore Into HisAvg10Seconds (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:50.000', ROUND(2.961873,3), ROUND(885.600000,3) from MstDevice  where mac = '210000000096' and DefTable = 'HisItemVoltT'; 
+Insert ignore Into HisAvgMinute (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:00.000', ROUND(2.961873,3), ROUND(885.600000,3) from MstDevice  where mac = '210000000096' and DefTable = 'HisItemVoltT'; 
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '6357.090000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000105' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000105' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '5242.980000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000110' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000110' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '6226.000000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000120' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000120' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '5177.400000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000135' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000135' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '6094.920000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000140' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000140' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '5046.370000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000142' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000142' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '5570.620000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000147' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000147' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '4915.250000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000156' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000156' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '6160.480000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000157' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000157' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '3407.950000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000166' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000166' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '5832.800000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000170' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000170' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '2686.990000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000171' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000171' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '6422.610000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000173' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000173' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '6488.160000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000186' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000186' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '6357.070000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000193' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000193' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '4522.070000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000195' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000195' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '6357.090000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000197' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000197' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '5242.980000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000203' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000203' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '5832.800000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000210' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000210' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '4784.220000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000215' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000215' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '4128.800000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000216' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000216' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '5767.240000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000220' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000220' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '5177.400000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000228' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000228' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAvg (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:49.200', ROUND(2.891781,3), ROUND(844.400000,3) from MstDevice  where mac = '210000000230' and DefTable = 'HisItemVoltS'; 
+Insert ignore Into HisAvg10Seconds (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:50.000', ROUND(2.952862,3), ROUND(877.000000,3) from MstDevice  where mac = '210000000230' and DefTable = 'HisItemVoltS'; 
+Insert ignore Into HisAvgMinute (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:00.000', ROUND(2.952862,3), ROUND(877.000000,3) from MstDevice  where mac = '210000000230' and DefTable = 'HisItemVoltS'; 
+Insert ignore Into HisAvg (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:49.200', ROUND(2.906376,3), ROUND(866.100000,3) from MstDevice  where mac = '210000000235' and DefTable = 'HisItemVoltR'; 
+Insert ignore Into HisAvg10Seconds (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:50.000', ROUND(2.925342,3), ROUND(854.200000,3) from MstDevice  where mac = '210000000235' and DefTable = 'HisItemVoltR'; 
+Insert ignore Into HisAvgMinute (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:00.000', ROUND(2.925342,3), ROUND(854.200000,3) from MstDevice  where mac = '210000000235' and DefTable = 'HisItemVoltR'; 
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '4259.930000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000267' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000267' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '3080.270000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000280' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000280' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '5701.730000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000284' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000284' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '2949.140000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000285' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000285' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '5242.980000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000296' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000296' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '3538.970000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000297' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000297' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.200', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '6488.160000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000298' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000298' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.300', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '6422.630000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000033' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000033' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.300', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '2686.990000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000080' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000080' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAvg (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:49.300', ROUND(2.959060,3), ROUND(881.800000,3) from MstDevice  where mac = '210000000086' and DefTable = 'HisItemVoltR'; 
+Insert ignore Into HisAvg10Seconds (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:50.000', ROUND(2.965772,3), ROUND(883.800000,3) from MstDevice  where mac = '210000000086' and DefTable = 'HisItemVoltR'; 
+Insert ignore Into HisAvgMinute (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:00.000', ROUND(2.965772,3), ROUND(883.800000,3) from MstDevice  where mac = '210000000086' and DefTable = 'HisItemVoltR'; 
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.300', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '6094.920000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000090' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000090' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAvg (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:49.300', ROUND(2.963880,3), ROUND(886.200000,3) from MstDevice  where mac = '210000000099' and DefTable = 'HisItemVoltS'; 
+Insert ignore Into HisAvg10Seconds (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:50.000', ROUND(2.905369,3), ROUND(865.800000,3) from MstDevice  where mac = '210000000099' and DefTable = 'HisItemVoltS'; 
+Insert ignore Into HisAvg (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:49.300', ROUND(2.982943,3), ROUND(891.900000,3) from MstDevice  where mac = '210000000102' and DefTable = 'HisItemVoltR'; 
+Insert ignore Into HisAvgMinute (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:00.000', ROUND(2.905369,3), ROUND(865.800000,3) from MstDevice  where mac = '210000000099' and DefTable = 'HisItemVoltS'; 
+Insert ignore Into HisAvg10Seconds (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:50.000', ROUND(2.964120,3), ROUND(892.200000,3) from MstDevice  where mac = '210000000102' and DefTable = 'HisItemVoltR'; 
+Insert ignore Into HisAvgMinute (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:00.000', ROUND(2.964120,3), ROUND(892.200000,3) from MstDevice  where mac = '210000000102' and DefTable = 'HisItemVoltR'; 
+Insert ignore Into HisAvg (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:49.300', ROUND(2.901338,3), ROUND(867.500000,3) from MstDevice  where mac = '210000000116' and DefTable = 'HisItemVoltT'; 
+Insert ignore Into HisAvg10Seconds (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:50.000', ROUND(2.713167,3), ROUND(762.400000,3) from MstDevice  where mac = '210000000116' and DefTable = 'HisItemVoltT'; 
+Insert ignore Into HisAvgMinute (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:00.000', ROUND(2.713167,3), ROUND(762.400000,3) from MstDevice  where mac = '210000000116' and DefTable = 'HisItemVoltT'; 
+Insert ignore Into HisAvg (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:49.300', ROUND(2.960927,3), ROUND(894.200000,3) from MstDevice  where mac = '210000000136' and DefTable = 'HisItemVoltT'; 
+Insert ignore Into HisAvg10Seconds (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:50.000', ROUND(2.907797,3), ROUND(857.800000,3) from MstDevice  where mac = '210000000136' and DefTable = 'HisItemVoltT'; 
+Insert ignore Into HisAvgMinute (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:00.000', ROUND(2.907797,3), ROUND(857.800000,3) from MstDevice  where mac = '210000000136' and DefTable = 'HisItemVoltT'; 
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.300', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '2097.160000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000161' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000161' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAlarm (Monitored_Time, Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, AlarmItem, Class, Moment, Ack, Status, Value, AlarmCondition) 
+SELECT '2020-12-15 11:24:49.300', Level1, Level2, Level3, Level4, Level5, SensorItem, Mac, DefServer, DefTable, DefColumn, 'Peak', 'Fault', 'Generated', 'Un Ack' ,'Un Ack', '5767.240000', '5000.000000OverLoad' 
+from MstDevice 
+where Mac = '210000000222' and DefTable = 'HisItemGround' AND NOT EXISTS ( SELECT * from HisAlarm where Mac = '210000000222' and DefTable = 'HisItemGround' and AlarmItem = 'Peak' and Class = 'Fault' and Released_Time is NULL order by Monitored_Time DESC LIMIT 1);
+Insert ignore Into HisAvg (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:49.300', ROUND(2.972819,3), ROUND(885.900000,3) from MstDevice  where mac = '210000000293' and DefTable = 'HisItemVoltR'; 
+Insert ignore Into HisAvg10Seconds (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:50.000', ROUND(2.839792,3), ROUND(820.700000,3) from MstDevice  where mac = '210000000293' and DefTable = 'HisItemVoltR'; 
+Insert ignore Into HisAvgMinute (DefServer, DefTable, DefColumn, DataSavedTime, Value, Area)  
+SELECT DefServer, DefTable, DefColumn, '2020-12-15 11:24:00.000', ROUND(2.839792,3), ROUND(820.700000,3) from MstDevice  where mac = '210000000293' and DefTable = 'HisItemVoltR'; 

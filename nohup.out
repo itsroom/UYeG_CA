@@ -1,0 +1,1005 @@
+MAX PROCS 16
+
+===================
+Start Scada Program
+===================
+2020-12-10 17:54:12.806183314 +0900 KST  - 연결되지 않은 장치 또는 변경된 장치가 있음.
+ SetupDevice.SelectTagNames  : 262.845899ms 
+2020-12-10 17:54:13.811805032 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:14.821121173 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+dial tcp [::1]:3306: connect: connection refused
+2020-12-10 17:54:15.843964029 +0900 KST  - 연결되지 않은 장치 또는 변경된 장치가 있음.
+=> This device(210000000027) has been removed from the list.
+
+UYeGZE1(210000000027): Close connection
+=> This device(210000000075) has been removed from the list.
+
+=> 210000000075 (192.168.100.75:9075) 데이터 수집 종료
+ SetupDevice.SelectTagNames  : 1.484µs 
+=> 210000000027 (192.168.100.75:9027) 데이터 수집 종료
+=> 210000000027 (192.168.100.75:9027) 데이터 처리 종료
+=> 210000000075 (192.168.100.75:9075) 데이터 처리 종료
+UYeGZE1(210000000075): Close connection
+=> This device(210000000157) has been removed from the list.
+
+=> 210000000157 (192.168.100.75:9157) 데이터 수집 종료
+UYeGZE1(210000000157): Close connection
+=> This device(210000000026) has been removed from the list.
+
+UYeGZE1(210000000026): Close connection
+=> This device(210000000180) has been removed from the list.
+
+UYeGZE1(210000000180): Close connection
+=> This device(210000000143) has been removed from the list.
+
+=> 210000000026 (192.168.100.75:9026) 데이터 처리 종료
+=> 210000000157 (192.168.100.75:9157) 데이터 처리 종료
+UYeGZE1(210000000143): Close connection
+=> 210000000143 (192.168.100.75:9143) 데이터 수집 종료
+=> 210000000180 (192.168.100.75:9180) 데이터 수집 종료
+=> 210000000026 (192.168.100.75:9026) 데이터 수집 종료
+=> This device(210000000091) has been removed from the list.
+
+UYeGZE1(210000000091): Close connection
+=> This device(210000000146) has been removed from the list.
+
+UYeGZE1(210000000146): Close connection
+=> This device(210000000057) has been removed from the list.
+
+=> 210000000057 (192.168.100.75:9057) 데이터 수집 종료
+=> 210000000180 (192.168.100.75:9180) 데이터 처리 종료
+=> 210000000091 (192.168.100.75:9091) 데이터 수집 종료
+=> 210000000091 (192.168.100.75:9091) 데이터 처리 종료
+=> 210000000143 (192.168.100.75:9143) 데이터 처리 종료
+=> 210000000146 (192.168.100.75:9146) 데이터 수집 종료
+=> 210000000146 (192.168.100.75:9146) 데이터 처리 종료
+=> 210000000057 (192.168.100.75:9057) 데이터 처리 종료
+UYeGZE1(210000000057): Close connection
+=> This device(210000000035) has been removed from the list.
+
+UYeGZE1(210000000035): Close connection
+=> This device(210000000089) has been removed from the list.
+
+UYeGZE1(210000000089): Close connection
+=> This device(210000000094) has been removed from the list.
+
+UYeGZE1(210000000094): Close connection
+=> This device(210000000066) has been removed from the list.
+
+UYeGZE1(210000000066): Close connection
+=> This device(210000000005) has been removed from the list.
+
+UYeGZE1(210000000005): Close connection
+=> This device(210000000082) has been removed from the list.
+
+=> 210000000094 (192.168.100.75:9094) 데이터 처리 종료
+=> 210000000082 (192.168.100.75:9082) 데이터 처리 종료
+=> 210000000035 (192.168.100.75:9035) 데이터 수집 종료
+UYeGZE1(210000000082): Close connection
+=> 210000000005 (192.168.100.75:9005) 데이터 처리 종료
+=> 210000000035 (192.168.100.75:9035) 데이터 처리 종료
+=> 210000000005 (192.168.100.75:9005) 데이터 수집 종료
+=> This device(210000000030) has been removed from the list.
+
+=> 210000000094 (192.168.100.75:9094) 데이터 수집 종료
+=> 210000000066 (192.168.100.75:9066) 데이터 처리 종료
+=> 210000000082 (192.168.100.75:9082) 데이터 수집 종료
+=> 210000000089 (192.168.100.75:9089) 데이터 처리 종료
+=> 210000000089 (192.168.100.75:9089) 데이터 수집 종료
+UYeGZE1(210000000030): Close connection
+=> 210000000030 (192.168.100.75:9030) 데이터 수집 종료
+=> This device(210000000096) has been removed from the list.
+
+UYeGZE1(210000000096): Close connection
+=> This device(210000000115) has been removed from the list.
+
+=> 210000000096 (192.168.100.75:9096) 데이터 처리 종료
+UYeGZE1(210000000115): Close connection
+=> 210000000115 (192.168.100.75:9115) 데이터 수집 종료
+=> 210000000096 (192.168.100.75:9096) 데이터 수집 종료
+=> 210000000030 (192.168.100.75:9030) 데이터 처리 종료
+=> 210000000066 (192.168.100.75:9066) 데이터 수집 종료
+=> 210000000115 (192.168.100.75:9115) 데이터 처리 종료
+=> This device(210000000165) has been removed from the list.
+
+UYeGZE1(210000000165): Close connection
+=> This device(210000000069) has been removed from the list.
+
+=> 210000000165 (192.168.100.75:9165) 데이터 수집 종료
+UYeGZE1(210000000069): Close connection
+=> This device(210000000117) has been removed from the list.
+
+=> 210000000069 (192.168.100.75:9069) 데이터 수집 종료
+=> 210000000117 (192.168.100.75:9117) 데이터 수집 종료
+=> 210000000165 (192.168.100.75:9165) 데이터 처리 종료
+=> 210000000117 (192.168.100.75:9117) 데이터 처리 종료
+UYeGZE1(210000000117): Close connection
+=> This device(210000000029) has been removed from the list.
+
+=> 210000000069 (192.168.100.75:9069) 데이터 처리 종료
+=> 210000000029 (192.168.100.75:9029) 데이터 수집 종료
+UYeGZE1(210000000029): Close connection
+=> This device(210000000039) has been removed from the list.
+
+=> 210000000029 (192.168.100.75:9029) 데이터 처리 종료
+=> 210000000039 (192.168.100.75:9039) 데이터 수집 종료
+=> 210000000039 (192.168.100.75:9039) 데이터 처리 종료
+UYeGZE1(210000000039): Close connection
+=> This device(210000000166) has been removed from the list.
+
+=> 210000000166 (192.168.100.75:9166) 데이터 수집 종료
+UYeGZE1(210000000166): Close connection
+=> This device(210000000141) has been removed from the list.
+
+=> 210000000166 (192.168.100.75:9166) 데이터 처리 종료
+=> 210000000141 (192.168.100.75:9141) 데이터 수집 종료
+UYeGZE1(210000000141): Close connection
+=> This device(210000000178) has been removed from the list.
+
+=> 210000000141 (192.168.100.75:9141) 데이터 처리 종료
+=> 210000000178 (192.168.100.75:9178) 데이터 수집 종료
+UYeGZE1(210000000178): Close connection
+=> This device(210000000147) has been removed from the list.
+
+=> 210000000178 (192.168.100.75:9178) 데이터 처리 종료
+=> 210000000147 (192.168.100.75:9147) 데이터 수집 종료
+UYeGZE1(210000000147): Close connection
+=> This device(210000000114) has been removed from the list.
+
+=> 210000000147 (192.168.100.75:9147) 데이터 처리 종료
+=> 210000000114 (192.168.100.75:9114) 데이터 처리 종료
+UYeGZE1(210000000114): Close connection
+=> This device(210000000032) has been removed from the list.
+
+UYeGZE1(210000000032): Close connection
+=> This device(210000000131) has been removed from the list.
+
+UYeGZE1(210000000131): Close connection
+=> 210000000032 (192.168.100.75:9032) 데이터 수집 종료
+=> 210000000032 (192.168.100.75:9032) 데이터 처리 종료
+=> 210000000131 (192.168.100.75:9131) 데이터 수집 종료
+=> This device(210000000139) has been removed from the list.
+
+UYeGZE1(210000000139): Close connection
+=> This device(210000000150) has been removed from the list.
+
+UYeGZE1(210000000150): Close connection
+=> This device(210000000097) has been removed from the list.
+
+UYeGZE1(210000000097): Close connection
+=> 210000000114 (192.168.100.75:9114) 데이터 수집 종료
+=> 210000000139 (192.168.100.75:9139) 데이터 수집 종료
+=> 210000000131 (192.168.100.75:9131) 데이터 처리 종료
+=> 210000000150 (192.168.100.75:9150) 데이터 수집 종료
+=> 210000000097 (192.168.100.75:9097) 데이터 처리 종료
+=> This device(210000000118) has been removed from the list.
+
+=> 210000000097 (192.168.100.75:9097) 데이터 수집 종료
+=> 210000000139 (192.168.100.75:9139) 데이터 처리 종료
+UYeGZE1(210000000118): Close connection
+=> This device(210000000179) has been removed from the list.
+
+=> 210000000150 (192.168.100.75:9150) 데이터 처리 종료
+=> 210000000179 (192.168.100.75:9179) 데이터 처리 종료
+UYeGZE1(210000000179): Close connection
+=> This device(210000000113) has been removed from the list.
+
+=> 210000000179 (192.168.100.75:9179) 데이터 수집 종료
+UYeGZE1(210000000113): Close connection
+=> This device(210000000025) has been removed from the list.
+
+=> 210000000118 (192.168.100.75:9118) 데이터 수집 종료
+=> 210000000113 (192.168.100.75:9113) 데이터 처리 종료
+=> 210000000113 (192.168.100.75:9113) 데이터 수집 종료
+=> 210000000118 (192.168.100.75:9118) 데이터 처리 종료
+=> 210000000025 (192.168.100.75:9025) 데이터 수집 종료
+=> 210000000025 (192.168.100.75:9025) 데이터 처리 종료
+UYeGZE1(210000000025): Close connection
+=> This device(210000000044) has been removed from the list.
+
+UYeGZE1(210000000044): Close connection
+=> This device(210000000123) has been removed from the list.
+
+UYeGZE1(210000000123): Close connection
+=> This device(210000000078) has been removed from the list.
+
+UYeGZE1(210000000078): Close connection
+=> This device(210000000086) has been removed from the list.
+
+UYeGZE1(210000000086): Close connection
+=> This device(210000000063) has been removed from the list.
+
+UYeGZE1(210000000063): Close connection
+=> This device(210000000055) has been removed from the list.
+
+UYeGZE1(210000000055): Close connection
+=> This device(210000000106) has been removed from the list.
+
+UYeGZE1(210000000106): Close connection
+=> This device(210000000175) has been removed from the list.
+
+UYeGZE1(210000000175): Close connection
+=> This device(210000000016) has been removed from the list.
+
+UYeGZE1(210000000016): Close connection
+=> This device(210000000142) has been removed from the list.
+
+UYeGZE1(210000000142): Close connection
+=> This device(210000000122) has been removed from the list.
+
+UYeGZE1(210000000122): Close connection
+=> This device(210000000108) has been removed from the list.
+
+UYeGZE1(210000000108): Close connection
+=> This device(210000000073) has been removed from the list.
+
+UYeGZE1(210000000073): Close connection
+=> This device(210000000099) has been removed from the list.
+
+UYeGZE1(210000000099): Close connection
+=> This device(210000000014) has been removed from the list.
+
+UYeGZE1(210000000014): Close connection
+=> This device(210000000004) has been removed from the list.
+
+UYeGZE1(210000000004): Close connection
+=> This device(210000000112) has been removed from the list.
+
+=> 210000000175 (192.168.100.75:9175) 데이터 처리 종료
+=> 210000000044 (192.168.100.75:9044) 데이터 수집 종료
+=> 210000000044 (192.168.100.75:9044) 데이터 처리 종료
+=> 210000000016 (192.168.100.75:9016) 데이터 수집 종료
+=> 210000000112 (192.168.100.75:9112) 데이터 처리 종료
+=> 210000000078 (192.168.100.75:9078) 데이터 처리 종료
+=> 210000000142 (192.168.100.75:9142) 데이터 수집 종료
+=> 210000000142 (192.168.100.75:9142) 데이터 처리 종료
+=> 210000000122 (192.168.100.75:9122) 데이터 수집 종료
+=> 210000000016 (192.168.100.75:9016) 데이터 처리 종료
+=> 210000000086 (192.168.100.75:9086) 데이터 수집 종료
+=> 210000000086 (192.168.100.75:9086) 데이터 처리 종료
+=> 210000000063 (192.168.100.75:9063) 데이터 처리 종료
+=> 210000000108 (192.168.100.75:9108) 데이터 수집 종료
+=> 210000000055 (192.168.100.75:9055) 데이터 처리 종료
+=> 210000000063 (192.168.100.75:9063) 데이터 수집 종료
+=> 210000000073 (192.168.100.75:9073) 데이터 수집 종료
+=> 210000000106 (192.168.100.75:9106) 데이터 수집 종료
+=> 210000000108 (192.168.100.75:9108) 데이터 처리 종료
+=> 210000000099 (192.168.100.75:9099) 데이터 수집 종료
+=> 210000000175 (192.168.100.75:9175) 데이터 수집 종료
+=> 210000000055 (192.168.100.75:9055) 데이터 수집 종료
+=> 210000000106 (192.168.100.75:9106) 데이터 처리 종료
+=> 210000000073 (192.168.100.75:9073) 데이터 처리 종료
+=> 210000000099 (192.168.100.75:9099) 데이터 처리 종료
+=> 210000000014 (192.168.100.75:9014) 데이터 처리 종료
+=> 210000000014 (192.168.100.75:9014) 데이터 수집 종료
+UYeGZE1(210000000112): Close connection
+=> This device(210000000020) has been removed from the list.
+
+UYeGZE1(210000000020): Close connection
+=> This device(210000000121) has been removed from the list.
+
+=> 210000000004 (192.168.100.75:9004) 데이터 수집 종료
+=> 210000000004 (192.168.100.75:9004) 데이터 처리 종료
+UYeGZE1(210000000121): Close connection
+=> This device(210000000102) has been removed from the list.
+
+=> 210000000123 (192.168.100.75:9123) 데이터 수집 종료
+=> 210000000020 (192.168.100.75:9020) 데이터 처리 종료
+=> 210000000102 (192.168.100.75:9102) 데이터 처리 종료
+=> 210000000020 (192.168.100.75:9020) 데이터 수집 종료
+=> 210000000122 (192.168.100.75:9122) 데이터 처리 종료
+=> 210000000102 (192.168.100.75:9102) 데이터 수집 종료
+UYeGZE1(210000000102): Close connection
+=> This device(210000000140) has been removed from the list.
+
+UYeGZE1(210000000140): Close connection
+=> This device(210000000001) has been removed from the list.
+
+UYeGZE1(210000000001): Close connection
+=> This device(210000000019) has been removed from the list.
+
+UYeGZE1(210000000019): Close connection
+=> This device(210000000177) has been removed from the list.
+
+=> 210000000112 (192.168.100.75:9112) 데이터 수집 종료
+=> 210000000121 (192.168.100.75:9121) 데이터 수집 종료
+=> 210000000121 (192.168.100.75:9121) 데이터 처리 종료
+=> 210000000177 (192.168.100.75:9177) 데이터 처리 종료
+UYeGZE1(210000000177): Close connection
+=> 210000000001 (192.168.100.75:9001) 데이터 수집 종료
+=> 210000000140 (192.168.100.75:9140) 데이터 처리 종료
+=> 210000000123 (192.168.100.75:9123) 데이터 처리 종료
+=> 210000000078 (192.168.100.75:9078) 데이터 수집 종료
+=> This device(210000000110) has been removed from the list.
+
+=> 210000000140 (192.168.100.75:9140) 데이터 수집 종료
+=> 210000000019 (192.168.100.75:9019) 데이터 수집 종료
+=> 210000000019 (192.168.100.75:9019) 데이터 처리 종료
+=> 210000000177 (192.168.100.75:9177) 데이터 수집 종료
+=> 210000000001 (192.168.100.75:9001) 데이터 처리 종료
+=> 210000000110 (192.168.100.75:9110) 데이터 수집 종료
+=> 210000000110 (192.168.100.75:9110) 데이터 처리 종료
+UYeGZE1(210000000110): Close connection
+=> This device(210000000083) has been removed from the list.
+
+=> 210000000083 (192.168.100.75:9083) 데이터 수집 종료
+=> 210000000083 (192.168.100.75:9083) 데이터 처리 종료
+UYeGZE1(210000000083): Close connection
+=> This device(210000000072) has been removed from the list.
+
+=> 210000000072 (192.168.100.75:9072) 데이터 수집 종료
+UYeGZE1(210000000072): Close connection
+=> This device(210000000120) has been removed from the list.
+
+=> 210000000120 (192.168.100.75:9120) 데이터 수집 종료
+=> 210000000072 (192.168.100.75:9072) 데이터 처리 종료
+=> 210000000120 (192.168.100.75:9120) 데이터 처리 종료
+UYeGZE1(210000000120): Close connection
+=> This device(210000000049) has been removed from the list.
+
+UYeGZE1(210000000049): Close connection
+=> This device(210000000064) has been removed from the list.
+
+UYeGZE1(210000000064): Close connection
+=> This device(210000000144) has been removed from the list.
+
+UYeGZE1(210000000144): Close connection
+=> This device(210000000090) has been removed from the list.
+
+UYeGZE1(210000000090): Close connection
+=> This device(210000000129) has been removed from the list.
+
+UYeGZE1(210000000129): Close connection
+=> This device(210000000046) has been removed from the list.
+
+UYeGZE1(210000000046): Close connection
+=> This device(210000000003) has been removed from the list.
+
+=> 210000000049 (192.168.100.75:9049) 데이터 수집 종료
+=> 210000000049 (192.168.100.75:9049) 데이터 처리 종료
+=> 210000000064 (192.168.100.75:9064) 데이터 수집 종료
+=> 210000000064 (192.168.100.75:9064) 데이터 처리 종료
+=> 210000000144 (192.168.100.75:9144) 데이터 수집 종료
+=> 210000000144 (192.168.100.75:9144) 데이터 처리 종료
+=> 210000000090 (192.168.100.75:9090) 데이터 수집 종료
+=> 210000000090 (192.168.100.75:9090) 데이터 처리 종료
+=> 210000000129 (192.168.100.75:9129) 데이터 수집 종료
+=> 210000000129 (192.168.100.75:9129) 데이터 처리 종료
+=> 210000000046 (192.168.100.75:9046) 데이터 수집 종료
+=> 210000000046 (192.168.100.75:9046) 데이터 처리 종료
+=> 210000000003 (192.168.100.75:9003) 데이터 수집 종료
+=> 210000000003 (192.168.100.75:9003) 데이터 처리 종료
+UYeGZE1(210000000003): Close connection
+=> This device(210000000052) has been removed from the list.
+
+=> 210000000052 (192.168.100.75:9052) 데이터 수집 종료
+=> 210000000052 (192.168.100.75:9052) 데이터 처리 종료
+UYeGZE1(210000000052): Close connection
+=> This device(210000000062) has been removed from the list.
+
+=> 210000000062 (192.168.100.75:9062) 데이터 수집 종료
+=> 210000000062 (192.168.100.75:9062) 데이터 처리 종료
+UYeGZE1(210000000062): Close connection
+=> This device(210000000017) has been removed from the list.
+
+=> 210000000017 (192.168.100.75:9017) 데이터 수집 종료
+UYeGZE1(210000000017): Close connection
+=> This device(210000000116) has been removed from the list.
+
+UYeGZE1(210000000116): Close connection
+=> This device(210000000159) has been removed from the list.
+
+UYeGZE1(210000000159): Close connection
+=> 210000000017 (192.168.100.75:9017) 데이터 처리 종료
+=> This device(210000000024) has been removed from the list.
+
+=> 210000000159 (192.168.100.75:9159) 데이터 처리 종료
+=> 210000000116 (192.168.100.75:9116) 데이터 처리 종료
+=> 210000000159 (192.168.100.75:9159) 데이터 수집 종료
+=> 210000000116 (192.168.100.75:9116) 데이터 수집 종료
+UYeGZE1(210000000024): Close connection
+=> This device(210000000056) has been removed from the list.
+
+UYeGZE1(210000000056): Close connection
+=> This device(210000000101) has been removed from the list.
+
+UYeGZE1(210000000101): Close connection
+=> This device(210000000010) has been removed from the list.
+
+=> 210000000056 (192.168.100.75:9056) 데이터 처리 종료
+=> 210000000010 (192.168.100.75:9010) 데이터 처리 종료
+=> 210000000101 (192.168.100.75:9101) 데이터 처리 종료
+UYeGZE1(210000000010): Close connection
+=> This device(210000000059) has been removed from the list.
+
+UYeGZE1(210000000059): Close connection
+=> This device(210000000081) has been removed from the list.
+
+UYeGZE1(210000000081): Close connection
+=> This device(210000000053) has been removed from the list.
+
+UYeGZE1(210000000053): Close connection
+=> 210000000101 (192.168.100.75:9101) 데이터 수집 종료
+=> This device(210000000169) has been removed from the list.
+
+=> 210000000056 (192.168.100.75:9056) 데이터 수집 종료
+=> 210000000053 (192.168.100.75:9053) 데이터 수집 종료
+=> 210000000059 (192.168.100.75:9059) 데이터 수집 종료
+=> 210000000081 (192.168.100.75:9081) 데이터 수집 종료
+=> 210000000024 (192.168.100.75:9024) 데이터 처리 종료
+=> 210000000024 (192.168.100.75:9024) 데이터 수집 종료
+=> 210000000081 (192.168.100.75:9081) 데이터 처리 종료
+=> 210000000053 (192.168.100.75:9053) 데이터 처리 종료
+=> 210000000059 (192.168.100.75:9059) 데이터 처리 종료
+=> 210000000010 (192.168.100.75:9010) 데이터 수집 종료
+=> 210000000169 (192.168.100.75:9169) 데이터 수집 종료
+UYeGZE1(210000000169): Close connection
+=> This device(210000000125) has been removed from the list.
+
+=> 210000000169 (192.168.100.75:9169) 데이터 처리 종료
+=> 210000000125 (192.168.100.75:9125) 데이터 수집 종료
+UYeGZE1(210000000125): Close connection
+=> This device(210000000095) has been removed from the list.
+
+UYeGZE1(210000000095): Close connection
+=> This device(210000000163) has been removed from the list.
+
+UYeGZE1(210000000163): Close connection
+=> This device(210000000136) has been removed from the list.
+
+=> 210000000095 (192.168.100.75:9095) 데이터 처리 종료
+UYeGZE1(210000000136): Close connection
+=> 210000000136 (192.168.100.75:9136) 데이터 수집 종료
+=> 210000000136 (192.168.100.75:9136) 데이터 처리 종료
+=> 210000000095 (192.168.100.75:9095) 데이터 수집 종료
+=> 210000000163 (192.168.100.75:9163) 데이터 수집 종료
+=> This device(210000000128) has been removed from the list.
+
+=> 210000000163 (192.168.100.75:9163) 데이터 처리 종료
+=> 210000000125 (192.168.100.75:9125) 데이터 처리 종료
+=> 210000000128 (192.168.100.75:9128) 데이터 수집 종료
+UYeGZE1(210000000128): Close connection
+=> This device(210000000028) has been removed from the list.
+
+UYeGZE1(210000000028): Close connection
+=> 210000000128 (192.168.100.75:9128) 데이터 처리 종료
+=> 210000000028 (192.168.100.75:9028) 데이터 수집 종료
+=> This device(210000000037) has been removed from the list.
+
+=> 210000000028 (192.168.100.75:9028) 데이터 처리 종료
+UYeGZE1(210000000037): Close connection
+=> 210000000037 (192.168.100.75:9037) 데이터 수집 종료
+=> This device(210000000038) has been removed from the list.
+
+=> 210000000037 (192.168.100.75:9037) 데이터 처리 종료
+=> 210000000038 (192.168.100.75:9038) 데이터 수집 종료
+=> 210000000038 (192.168.100.75:9038) 데이터 처리 종료
+UYeGZE1(210000000038): Close connection
+=> This device(210000000145) has been removed from the list.
+
+=> 210000000145 (192.168.100.75:9145) 데이터 수집 종료
+=> 210000000145 (192.168.100.75:9145) 데이터 처리 종료
+UYeGZE1(210000000145): Close connection
+=> This device(210000000124) has been removed from the list.
+
+UYeGZE1(210000000124): Close connection
+=> This device(210000000133) has been removed from the list.
+
+UYeGZE1(210000000133): Close connection
+=> This device(210000000036) has been removed from the list.
+
+=> 210000000124 (192.168.100.75:9124) 데이터 수집 종료
+=> 210000000036 (192.168.100.75:9036) 데이터 처리 종료
+=> 210000000124 (192.168.100.75:9124) 데이터 처리 종료
+UYeGZE1(210000000036): Close connection
+=> This device(210000000015) has been removed from the list.
+
+UYeGZE1(210000000015): Close connection
+=> This device(210000000043) has been removed from the list.
+
+=> 210000000015 (192.168.100.75:9015) 데이터 수집 종료
+=> 210000000133 (192.168.100.75:9133) 데이터 처리 종료
+=> 210000000036 (192.168.100.75:9036) 데이터 수집 종료
+=> 210000000043 (192.168.100.75:9043) 데이터 수집 종료
+UYeGZE1(210000000043): Close connection
+=> 210000000043 (192.168.100.75:9043) 데이터 처리 종료
+=> 210000000015 (192.168.100.75:9015) 데이터 처리 종료
+=> This device(210000000134) has been removed from the list.
+
+=> 210000000133 (192.168.100.75:9133) 데이터 수집 종료
+=> 210000000134 (192.168.100.75:9134) 데이터 수집 종료
+=> 210000000134 (192.168.100.75:9134) 데이터 처리 종료
+UYeGZE1(210000000134): Close connection
+=> This device(210000000054) has been removed from the list.
+
+=> 210000000054 (192.168.100.75:9054) 데이터 수집 종료
+=> 210000000054 (192.168.100.75:9054) 데이터 처리 종료
+UYeGZE1(210000000054): Close connection
+=> This device(210000000060) has been removed from the list.
+
+=> 210000000060 (192.168.100.75:9060) 데이터 수집 종료
+=> 210000000060 (192.168.100.75:9060) 데이터 처리 종료
+UYeGZE1(210000000060): Close connection
+=> This device(210000000021) has been removed from the list.
+
+=> 210000000021 (192.168.100.75:9021) 데이터 수집 종료
+UYeGZE1(210000000021): Close connection
+=> This device(210000000176) has been removed from the list.
+
+=> 210000000021 (192.168.100.75:9021) 데이터 처리 종료
+UYeGZE1(210000000176): Close connection
+=> This device(210000000080) has been removed from the list.
+
+=> 210000000176 (192.168.100.75:9176) 데이터 처리 종료
+=> 210000000080 (192.168.100.75:9080) 데이터 수집 종료
+UYeGZE1(210000000080): Close connection
+=> This device(210000000173) has been removed from the list.
+
+UYeGZE1(210000000173): Close connection
+=> This device(210000000012) has been removed from the list.
+
+=> 210000000173 (192.168.100.75:9173) 데이터 처리 종료
+=> 210000000173 (192.168.100.75:9173) 데이터 수집 종료
+=> 210000000012 (192.168.100.75:9012) 데이터 수집 종료
+UYeGZE1(210000000012): Close connection
+=> This device(210000000161) has been removed from the list.
+
+UYeGZE1(210000000161): Close connection
+=> This device(210000000153) has been removed from the list.
+
+UYeGZE1(210000000153): Close connection
+=> 210000000161 (192.168.100.75:9161) 데이터 수집 종료
+=> 210000000012 (192.168.100.75:9012) 데이터 처리 종료
+=> 210000000176 (192.168.100.75:9176) 데이터 수집 종료
+=> 210000000080 (192.168.100.75:9080) 데이터 처리 종료
+=> 210000000153 (192.168.100.75:9153) 데이터 수집 종료
+=> 210000000161 (192.168.100.75:9161) 데이터 처리 종료
+=> This device(210000000132) has been removed from the list.
+
+=> 210000000153 (192.168.100.75:9153) 데이터 처리 종료
+=> 210000000132 (192.168.100.75:9132) 데이터 수집 종료
+=> 210000000132 (192.168.100.75:9132) 데이터 처리 종료
+UYeGZE1(210000000132): Close connection
+=> This device(210000000045) has been removed from the list.
+
+=> 210000000045 (192.168.100.75:9045) 데이터 수집 종료
+=> 210000000045 (192.168.100.75:9045) 데이터 처리 종료
+UYeGZE1(210000000045): Close connection
+=> This device(210000000009) has been removed from the list.
+
+=> 210000000009 (192.168.100.75:9009) 데이터 수집 종료
+=> 210000000009 (192.168.100.75:9009) 데이터 처리 종료
+UYeGZE1(210000000009): Close connection
+=> This device(210000000172) has been removed from the list.
+
+UYeGZE1(210000000172): Close connection
+=> This device(210000000033) has been removed from the list.
+
+UYeGZE1(210000000033): Close connection
+=> This device(210000000084) has been removed from the list.
+
+UYeGZE1(210000000084): Close connection
+=> This device(210000000100) has been removed from the list.
+
+=> 210000000172 (192.168.100.75:9172) 데이터 수집 종료
+UYeGZE1(210000000100): Close connection
+=> 210000000172 (192.168.100.75:9172) 데이터 처리 종료
+=> 210000000100 (192.168.100.75:9100) 데이터 처리 종료
+=> 210000000084 (192.168.100.75:9084) 데이터 처리 종료
+=> This device(210000000149) has been removed from the list.
+
+UYeGZE1(210000000149): Close connection
+=> This device(210000000077) has been removed from the list.
+
+=> 210000000033 (192.168.100.75:9033) 데이터 처리 종료
+UYeGZE1(210000000077): Close connection
+=> 210000000149 (192.168.100.75:9149) 데이터 처리 종료
+=> 210000000100 (192.168.100.75:9100) 데이터 수집 종료
+=> 210000000033 (192.168.100.75:9033) 데이터 수집 종료
+=> This device(210000000008) has been removed from the list.
+
+=> 210000000149 (192.168.100.75:9149) 데이터 수집 종료
+=> 210000000084 (192.168.100.75:9084) 데이터 수집 종료
+=> 210000000077 (192.168.100.75:9077) 데이터 수집 종료
+=> 210000000077 (192.168.100.75:9077) 데이터 처리 종료
+=> 210000000008 (192.168.100.75:9008) 데이터 수집 종료
+=> 210000000008 (192.168.100.75:9008) 데이터 처리 종료
+UYeGZE1(210000000008): Close connection
+=> This device(210000000156) has been removed from the list.
+
+=> 210000000156 (192.168.100.75:9156) 데이터 수집 종료
+UYeGZE1(210000000156): Close connection
+=> This device(210000000006) has been removed from the list.
+
+=> 210000000156 (192.168.100.75:9156) 데이터 처리 종료
+=> 210000000006 (192.168.100.75:9006) 데이터 수집 종료
+=> 210000000006 (192.168.100.75:9006) 데이터 처리 종료
+UYeGZE1(210000000006): Close connection
+=> This device(210000000105) has been removed from the list.
+
+=> 210000000105 (192.168.100.75:9105) 데이터 수집 종료
+=> 210000000105 (192.168.100.75:9105) 데이터 처리 종료
+UYeGZE1(210000000105): Close connection
+=> This device(210000000130) has been removed from the list.
+
+=> 210000000130 (192.168.100.75:9130) 데이터 수집 종료
+UYeGZE1(210000000130): Close connection
+=> This device(210000000013) has been removed from the list.
+
+UYeGZE1(210000000013): Close connection
+=> This device(210000000154) has been removed from the list.
+
+UYeGZE1(210000000154): Close connection
+=> This device(210000000103) has been removed from the list.
+
+UYeGZE1(210000000103): Close connection
+=> This device(210000000051) has been removed from the list.
+
+=> 210000000130 (192.168.100.75:9130) 데이터 처리 종료
+=> 210000000013 (192.168.100.75:9013) 데이터 수집 종료
+=> 210000000051 (192.168.100.75:9051) 데이터 처리 종료
+=> 210000000154 (192.168.100.75:9154) 데이터 수집 종료
+=> 210000000103 (192.168.100.75:9103) 데이터 수집 종료
+=> 210000000103 (192.168.100.75:9103) 데이터 처리 종료
+UYeGZE1(210000000051): Close connection
+=> This device(210000000160) has been removed from the list.
+
+UYeGZE1(210000000160): Close connection
+=> This device(210000000092) has been removed from the list.
+
+=> 210000000160 (192.168.100.75:9160) 데이터 처리 종료
+UYeGZE1(210000000092): Close connection
+=> This device(210000000050) has been removed from the list.
+
+UYeGZE1(210000000050): Close connection
+=> This device(210000000111) has been removed from the list.
+
+=> 210000000111 (192.168.100.75:9111) 데이터 수집 종료
+=> 210000000154 (192.168.100.75:9154) 데이터 처리 종료
+=> 210000000160 (192.168.100.75:9160) 데이터 수집 종료
+=> 210000000092 (192.168.100.75:9092) 데이터 수집 종료
+=> 210000000050 (192.168.100.75:9050) 데이터 처리 종료
+=> 210000000013 (192.168.100.75:9013) 데이터 처리 종료
+=> 210000000050 (192.168.100.75:9050) 데이터 수집 종료
+=> 210000000092 (192.168.100.75:9092) 데이터 처리 종료
+=> 210000000051 (192.168.100.75:9051) 데이터 수집 종료
+=> 210000000111 (192.168.100.75:9111) 데이터 처리 종료
+UYeGZE1(210000000111): Close connection
+=> This device(210000000174) has been removed from the list.
+
+=> 210000000174 (192.168.100.75:9174) 데이터 수집 종료
+=> 210000000174 (192.168.100.75:9174) 데이터 처리 종료
+UYeGZE1(210000000174): Close connection
+=> This device(210000000048) has been removed from the list.
+
+UYeGZE1(210000000048): Close connection
+=> This device(210000000061) has been removed from the list.
+
+UYeGZE1(210000000061): Close connection
+=> This device(210000000002) has been removed from the list.
+
+=> 210000000061 (192.168.100.75:9061) 데이터 수집 종료
+=> 210000000061 (192.168.100.75:9061) 데이터 처리 종료
+UYeGZE1(210000000002): Close connection
+=> 210000000002 (192.168.100.75:9002) 데이터 처리 종료
+=> 210000000048 (192.168.100.75:9048) 데이터 처리 종료
+=> 210000000002 (192.168.100.75:9002) 데이터 수집 종료
+=> This device(210000000107) has been removed from the list.
+
+=> 210000000048 (192.168.100.75:9048) 데이터 수집 종료
+=> 210000000107 (192.168.100.75:9107) 데이터 수집 종료
+UYeGZE1(210000000107): Close connection
+=> This device(210000000087) has been removed from the list.
+
+UYeGZE1(210000000087): Close connection
+=> This device(210000000164) has been removed from the list.
+
+=> 210000000087 (192.168.100.75:9087) 데이터 수집 종료
+=> 210000000107 (192.168.100.75:9107) 데이터 처리 종료
+UYeGZE1(210000000164): Close connection
+=> This device(210000000041) has been removed from the list.
+
+=> 210000000164 (192.168.100.75:9164) 데이터 처리 종료
+=> 210000000164 (192.168.100.75:9164) 데이터 수집 종료
+UYeGZE1(210000000041): Close connection
+=> 210000000041 (192.168.100.75:9041) 데이터 수집 종료
+=> This device(210000000098) has been removed from the list.
+
+=> 210000000087 (192.168.100.75:9087) 데이터 처리 종료
+=> 210000000041 (192.168.100.75:9041) 데이터 처리 종료
+=> 210000000098 (192.168.100.75:9098) 데이터 수집 종료
+=> 210000000098 (192.168.100.75:9098) 데이터 처리 종료
+UYeGZE1(210000000098): Close connection
+=> This device(210000000058) has been removed from the list.
+
+=> 210000000058 (192.168.100.75:9058) 데이터 수집 종료
+UYeGZE1(210000000058): Close connection
+=> 210000000058 (192.168.100.75:9058) 데이터 처리 종료
+=> This device(210000000155) has been removed from the list.
+
+=> 210000000155 (192.168.100.75:9155) 데이터 수집 종료
+UYeGZE1(210000000155): Close connection
+=> This device(210000000071) has been removed from the list.
+
+=> 210000000155 (192.168.100.75:9155) 데이터 처리 종료
+UYeGZE1(210000000071): Close connection
+=> This device(210000000023) has been removed from the list.
+
+=> 210000000071 (192.168.100.75:9071) 데이터 처리 종료
+=> 210000000071 (192.168.100.75:9071) 데이터 수집 종료
+=> 210000000023 (192.168.100.75:9023) 데이터 수집 종료
+UYeGZE1(210000000023): Close connection
+=> 210000000023 (192.168.100.75:9023) 데이터 처리 종료
+=> This device(210000000151) has been removed from the list.
+
+=> 210000000151 (192.168.100.75:9151) 데이터 수집 종료
+UYeGZE1(210000000151): Close connection
+=> This device(210000000171) has been removed from the list.
+
+UYeGZE1(210000000171): Close connection
+=> 210000000171 (192.168.100.75:9171) 데이터 처리 종료
+=> 210000000171 (192.168.100.75:9171) 데이터 수집 종료
+=> This device(210000000007) has been removed from the list.
+
+=> 210000000151 (192.168.100.75:9151) 데이터 처리 종료
+=> 210000000007 (192.168.100.75:9007) 데이터 수집 종료
+=> 210000000007 (192.168.100.75:9007) 데이터 처리 종료
+UYeGZE1(210000000007): Close connection
+=> This device(210000000040) has been removed from the list.
+
+=> 210000000040 (192.168.100.75:9040) 데이터 수집 종료
+=> 210000000040 (192.168.100.75:9040) 데이터 처리 종료
+UYeGZE1(210000000040): Close connection
+=> This device(210000000158) has been removed from the list.
+
+=> 210000000158 (192.168.100.75:9158) 데이터 수집 종료
+=> 210000000158 (192.168.100.75:9158) 데이터 처리 종료
+UYeGZE1(210000000158): Close connection
+=> This device(210000000042) has been removed from the list.
+
+=> 210000000042 (192.168.100.75:9042) 데이터 수집 종료
+UYeGZE1(210000000042): Close connection
+=> This device(210000000031) has been removed from the list.
+
+=> 210000000042 (192.168.100.75:9042) 데이터 처리 종료
+UYeGZE1(210000000031): Close connection
+=> This device(210000000109) has been removed from the list.
+
+UYeGZE1(210000000109): Close connection
+=> 210000000031 (192.168.100.75:9031) 데이터 처리 종료
+=> 210000000109 (192.168.100.75:9109) 데이터 처리 종료
+=> 210000000109 (192.168.100.75:9109) 데이터 수집 종료
+=> This device(210000000170) has been removed from the list.
+
+=> 210000000031 (192.168.100.75:9031) 데이터 수집 종료
+=> 210000000170 (192.168.100.75:9170) 데이터 수집 종료
+=> 210000000170 (192.168.100.75:9170) 데이터 처리 종료
+UYeGZE1(210000000170): Close connection
+=> This device(210000000065) has been removed from the list.
+
+UYeGZE1(210000000065): Close connection
+=> This device(210000000138) has been removed from the list.
+
+=> 210000000065 (192.168.100.75:9065) 데이터 처리 종료
+=> 210000000065 (192.168.100.75:9065) 데이터 수집 종료
+=> 210000000138 (192.168.100.75:9138) 데이터 처리 종료
+UYeGZE1(210000000138): Close connection
+=> This device(210000000047) has been removed from the list.
+
+=> 210000000138 (192.168.100.75:9138) 데이터 수집 종료
+=> 210000000047 (192.168.100.75:9047) 데이터 처리 종료
+UYeGZE1(210000000047): Close connection
+=> This device(210000000127) has been removed from the list.
+
+=> 210000000047 (192.168.100.75:9047) 데이터 수집 종료
+=> 210000000127 (192.168.100.75:9127) 데이터 수집 종료
+=> 210000000127 (192.168.100.75:9127) 데이터 처리 종료
+UYeGZE1(210000000127): Close connection
+=> This device(210000000088) has been removed from the list.
+
+=> 210000000088 (192.168.100.75:9088) 데이터 수집 종료
+UYeGZE1(210000000088): Close connection
+=> This device(210000000119) has been removed from the list.
+
+UYeGZE1(210000000119): Close connection
+=> This device(210000000068) has been removed from the list.
+
+=> 210000000088 (192.168.100.75:9088) 데이터 처리 종료
+UYeGZE1(210000000068): Close connection
+=> This device(210000000074) has been removed from the list.
+
+=> 210000000119 (192.168.100.75:9119) 데이터 처리 종료
+=> 210000000074 (192.168.100.75:9074) 데이터 수집 종료
+UYeGZE1(210000000074): Close connection
+=> 210000000119 (192.168.100.75:9119) 데이터 수집 종료
+=> 210000000068 (192.168.100.75:9068) 데이터 수집 종료
+=> This device(210000000079) has been removed from the list.
+
+UYeGZE1(210000000079): Close connection
+=> This device(210000000162) has been removed from the list.
+
+=> 210000000079 (192.168.100.75:9079) 데이터 수집 종료
+=> 210000000162 (192.168.100.75:9162) 데이터 처리 종료
+=> 210000000068 (192.168.100.75:9068) 데이터 처리 종료
+=> 210000000079 (192.168.100.75:9079) 데이터 처리 종료
+=> 210000000162 (192.168.100.75:9162) 데이터 수집 종료
+=> 210000000074 (192.168.100.75:9074) 데이터 처리 종료
+UYeGZE1(210000000162): Close connection
+=> This device(210000000152) has been removed from the list.
+
+UYeGZE1(210000000152): Close connection
+=> This device(210000000034) has been removed from the list.
+
+UYeGZE1(210000000034): Close connection
+=> This device(210000000148) has been removed from the list.
+
+=> 210000000034 (192.168.100.75:9034) 데이터 수집 종료
+=> 210000000148 (192.168.100.75:9148) 데이터 처리 종료
+=> 210000000152 (192.168.100.75:9152) 데이터 처리 종료
+=> 210000000148 (192.168.100.75:9148) 데이터 수집 종료
+=> 210000000152 (192.168.100.75:9152) 데이터 수집 종료
+=> 210000000034 (192.168.100.75:9034) 데이터 처리 종료
+UYeGZE1(210000000148): Close connection
+=> This device(210000000126) has been removed from the list.
+
+=> 210000000126 (192.168.100.75:9126) 데이터 수집 종료
+=> 210000000126 (192.168.100.75:9126) 데이터 처리 종료
+UYeGZE1(210000000126): Close connection
+=> This device(210000000076) has been removed from the list.
+
+=> 210000000076 (192.168.100.75:9076) 데이터 수집 종료
+=> 210000000076 (192.168.100.75:9076) 데이터 처리 종료
+UYeGZE1(210000000076): Close connection
+=> This device(210000000168) has been removed from the list.
+
+=> 210000000168 (192.168.100.75:9168) 데이터 수집 종료
+=> 210000000168 (192.168.100.75:9168) 데이터 처리 종료
+UYeGZE1(210000000168): Close connection
+=> This device(210000000070) has been removed from the list.
+
+UYeGZE1(210000000070): Close connection
+=> This device(210000000167) has been removed from the list.
+
+UYeGZE1(210000000167): Close connection
+=> This device(210000000018) has been removed from the list.
+
+=> 210000000167 (192.168.100.75:9167) 데이터 수집 종료
+UYeGZE1(210000000018): Close connection
+=> 210000000070 (192.168.100.75:9070) 데이터 수집 종료
+=> 210000000018 (192.168.100.75:9018) 데이터 수집 종료
+=> 210000000070 (192.168.100.75:9070) 데이터 처리 종료
+=> This device(210000000135) has been removed from the list.
+
+UYeGZE1(210000000135): Close connection
+=> This device(210000000067) has been removed from the list.
+
+UYeGZE1(210000000067): Close connection
+=> This device(210000000137) has been removed from the list.
+
+=> 210000000135 (192.168.100.75:9135) 데이터 처리 종료
+=> 210000000018 (192.168.100.75:9018) 데이터 처리 종료
+=> 210000000137 (192.168.100.75:9137) 데이터 처리 종료
+=> 210000000067 (192.168.100.75:9067) 데이터 수집 종료
+=> 210000000137 (192.168.100.75:9137) 데이터 수집 종료
+=> 210000000135 (192.168.100.75:9135) 데이터 수집 종료
+=> 210000000167 (192.168.100.75:9167) 데이터 처리 종료
+=> 210000000067 (192.168.100.75:9067) 데이터 처리 종료
+UYeGZE1(210000000137): Close connection
+=> This device(210000000022) has been removed from the list.
+
+UYeGZE1(210000000022): Close connection
+=> This device(210000000104) has been removed from the list.
+
+=> 210000000104 (192.168.100.75:9104) 데이터 수집 종료
+=> 210000000022 (192.168.100.75:9022) 데이터 수집 종료
+=> 210000000022 (192.168.100.75:9022) 데이터 처리 종료
+=> 210000000104 (192.168.100.75:9104) 데이터 처리 종료
+UYeGZE1(210000000104): Close connection
+=> This device(210000000085) has been removed from the list.
+
+=> 210000000085 (192.168.100.75:9085) 데이터 수집 종료
+UYeGZE1(210000000085): Close connection
+=> This device(210000000093) has been removed from the list.
+
+=> 210000000085 (192.168.100.75:9085) 데이터 처리 종료
+=> 210000000093 (192.168.100.75:9093) 데이터 수집 종료
+=> 210000000093 (192.168.100.75:9093) 데이터 처리 종료
+UYeGZE1(210000000093): Close connection
+=> This device(210000000011) has been removed from the list.
+
+UYeGZE1(210000000011): Close connection
+=> 210000000011 (192.168.100.75:9011) 데이터 처리 종료
+=> 210000000011 (192.168.100.75:9011) 데이터 수집 종료
+dial tcp [::1]:3306: connect: connection refused
+dial tcp [::1]:3306: connect: connection refused
+dial tcp [::1]:3306: connect: connection refused
+dial tcp [::1]:3306: connect: connection refused
+dial tcp [::1]:3306: connect: connection refused
+2020-12-10 17:54:15.9 time 실행시간 :  190.628033ms
+2020-12-10 17:54:16.867197894 +0900 KST  - 연결되지 않은 장치 또는 변경된 장치가 있음.
+ SetupDevice.SelectTagNames  : 216.192276ms 
+2020-12-10 17:54:17.869018517 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:18.871528756 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:18.9 time 실행시간 :  192.705154ms
+2020-12-10 17:54:19.873016849 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:19.9 time 실행시간 :  194.333551ms
+2020-12-10 17:54:20.876238714 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:21.0 time 실행시간 :  262.912403ms
+2020-12-10 17:54:21.877635401 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:22.1 time 실행시간 :  329.462763ms
+2020-12-10 17:54:22.880022926 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:23.883452472 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:24.0 time 실행시간 :  291.38877ms
+2020-12-10 17:54:24.885223478 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:25.886579302 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:25.9 time 실행시간 :  193.284239ms
+2020-12-10 17:54:26.888321586 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:26.9 time 실행시간 :  195.993159ms
+2020-12-10 17:54:27.88998893 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:27.9 time 실행시간 :  185.920653ms
+2020-12-10 17:54:28.891782884 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:29.0 time 실행시간 :  197.977199ms
+2020-12-10 17:54:29.893132687 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:29.9 time 실행시간 :  192.476062ms
+2020-12-10 17:54:30.895563038 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:31.0 time 실행시간 :  266.924777ms
+2020-12-10 17:54:31.897046515 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:31.9 time 실행시간 :  105.78806ms
+2020-12-10 17:54:32.899370687 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:33.2 time 실행시간 :  456.956256ms
+2020-12-10 17:54:33.900794905 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:34.902868617 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:34.9 time 실행시간 :  193.347341ms
+2020-12-10 17:54:35.904225972 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:35.9 time 실행시간 :  190.683744ms
+2020-12-10 17:54:36.906053038 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:37.0 time 실행시간 :  261.570847ms
+2020-12-10 17:54:37.90773276 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:38.0 time 실행시간 :  240.21448ms
+2020-12-10 17:54:38.8 time 실행시간 :  7.317907ms
+2020-12-10 17:54:38.909526781 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:39.926059622 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:40.1 time 실행시간 :  300.224961ms
+2020-12-10 17:54:40.933214203 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:41.934784415 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:41.9 time 실행시간 :  190.687187ms
+2020-12-10 17:54:42.93618319 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:43.2 time 실행시간 :  437.75947ms
+2020-12-10 17:54:43.937804108 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:44.940120824 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:44.9 time 실행시간 :  195.431852ms
+2020-12-10 17:54:45.94167658 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:45.9 time 실행시간 :  190.920019ms
+2020-12-10 17:54:46.9429487 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:47.0 time 실행시간 :  237.513133ms
+2020-12-10 17:54:47.945058892 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:48.1 time 실행시간 :  296.552275ms
+2020-12-10 17:54:48.946639664 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:49.948654678 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:50.0 time 실행시간 :  265.972445ms
+2020-12-10 17:54:50.95029257 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:51.951868233 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:51.9 time 실행시간 :  192.246636ms
+2020-12-10 17:54:52.953192189 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:53.2 time 실행시간 :  420.176026ms
+2020-12-10 17:54:53.954667182 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:54.957040883 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:55.0 time 실행시간 :  256.336938ms
+2020-12-10 17:54:55.9 time 실행시간 :  146.210538ms
+2020-12-10 17:54:55.958991842 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:56.960992216 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:57.1 time 실행시간 :  326.275283ms
+2020-12-10 17:54:57.962871227 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:58.965349875 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:58.9 time 실행시간 :  184.534353ms
+2020-12-10 17:54:59.966865897 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:54:59.9 time 실행시간 :  190.346895ms
+2020-12-10 17:55:00.968163699 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:55:00.9 time 실행시간 :  195.830756ms
+2020-12-10 17:55:01.969498714 +0900 KST  - 모든 장치가 연결됨. (180 개) addedDs
+2020-12-10 17:55:01.9 time 실행시간 :  192.694534ms
+=> Close Database <=
+
+===================
+Stop Scada Program
+===================
