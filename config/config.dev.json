@@ -2,13 +2,13 @@
     "MYSQL_HOST": "localhost",
     "MYSQL_PORT": 3306,
     "MYSQL_ROOT_PASSWORD": "its@1234",
-    "MYSQL_DATABASE": "test",
+    "MYSQL_DATABASE": "UYeG_BM4",
     "MYSQL_USER": "root",
     "MYSQL_PASSWORD": "its@1234",
 
-    "GATEWAYID" : "gf7fa49c64399",
+    "GATEWAYID" : "local",
     
-    "INFLUX_DATABASE": "test",
+    "INFLUX_DATABASE": "UYeG_BM4",
     "INFLUX_USER": "its",
     "INFLUX_PASSWORD": "its@1234"
 }
